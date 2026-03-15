@@ -38,14 +38,19 @@ Yes, AI helped me design several of my tests. I used ask and plan mode to unders
 ## 4. What did you learn about Streamlit and state?
 
 - In your own words, explain why the secret number kept changing in the original app.
+Every guess, the secret number would be randomly picked even though the game did not end or restart. This is because Streamlit reruns the entire script for every user interaction.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+Streamlit restarts the game whenever you click a button or make a guess even though the game didn't end yet.
 - What change did you make that finally gave the game a stable secret number?
-
+I made a fix that stores the secret number in Streamlit session state only creates it once per game. The secret number is only changed when starting a new game.
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+  I would use Copilot Agent mode to generate test cases in the future. Copilot can easily understand any changes and fixes you implement and create a test case that checks that the fix is working properly.
 - What is one thing you would do differently next time you work with AI on a coding task?
+I would try to use ask/plan mode before implementing any changes more often. Ask/plan mode is really helpful to understanding the current code and why certain bugs exist.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+This project changed my understanding of what AI assisted code can do. I was not familiar with its ability to generate test cases for code changes. Also, I learned about how useful AI can be in understanding code as well.

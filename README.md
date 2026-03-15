@@ -25,13 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] The game's purpose is to create a guessing game where the user has to guess a specific number in a range within a certain number of guesses. However, the game has a lot of bugs and issues that mess with the game logic. Therefore, you have to fix these bugs to make the game work properly.
+- [ ] First, I found a bug with the difficulty levels where the ranges and number of attempts are inconsistent. Also, the hint after each guess does not work and the new game button also does not work. The score also is calculated incorrectly.
+- [ ] I applied fixes to the difficulty ranges, the new game button, and the hints after each guess. I made the ranges consistent (easy: 1-20, normal: 1-50, hard: 1-100). I made the new game button correctly restart the game. Finally, the hints actually work properly and tell the user to guess higher or lower based on the secret number and their previous guess.
 
 ## 📸 Demo
 
-- [ ] ![Example Image](https://i.imgur.com/IzO8UKf.png)
+- [ ] ![Demo Screenshot](https://i.imgur.com/IzO8UKf.png)
 
 ## 🚀 Stretch Features
 
