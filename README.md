@@ -31,7 +31,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo
 
-- [ ] <img src="https://imgur.com/a/xjdVpCh" width=600>
+- [ ] ![Example Image](https://i.imgur.com/IzO8UKf.png)
 
 ## 🚀 Stretch Features
 
